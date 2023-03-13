@@ -1,0 +1,277 @@
+* {
+
+    outline: 3px solid limegreen !important;
+
+    background: rgba(0, 151, 0, 0.1) !important;
+}
+
+body {
+    background-color: rgb(224, 234, 237);
+}
+
+header {
+    background-color: rgb(147, 147, 147);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    background-color: teal;
+    flex: 3;
+    height: 50px;
+    padding-right: 25px;
+    font-size: 48px;
+    text-align: right;
+}
+
+.box-empty {
+    flex: 4;
+}
+
+.nav-box {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+subheader {
+    background-color: rgb(69, 117, 136);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    height: 175px;
+    size: 100%;
+}
+
+subheader h2 {
+    display: flex;
+    background-color: aqua;
+    font-size: 36px;
+    height: 35px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+#flex-container {
+
+    display: flex;
+
+}
+
+#main-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#work-content-container {
+
+    display: flex;
+    margin-left: 25px;
+}
+
+#bio-content-container {
+    width: 100%;
+    height: 195px;
+
+}
+
+#bio-content-container-medium {
+    display: none;
+
+}
+
+
+#box-container-large {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-right: 35px;
+    height: 1080px;
+}
+
+
+
+#box-container-medium {
+    display: none;
+}
+
+#hero-box-container {
+
+    margin-top: 30px;
+    margin-right: 35px;
+    height: 750px;
+}
+
+
+h3 {
+    text-align: right;
+    max-width: 103px;
+    font-size: 36px;
+    margin: 35px 10px;
+    padding-right: 15px;
+    border-right: black 3px solid;
+}
+
+
+#bio-content {
+    margin: 40px 20px;
+    margin-left: 20px;
+    max-height: 125px;
+}
+
+
+
+
+.side-header-large {
+
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    margin-left: 50px;
+
+}
+
+.side-header-medium {
+    display: none;
+}
+
+#bio-side-header {
+    height: 125px;
+}
+
+#work-side-header {
+    height: 1080px;
+}
+
+#hero-box {
+    height: 1060px;
+    width: 1060px;
+    margin: 10px;
+
+}
+
+#box {
+    width: 500px;
+    margin: 10px;
+
+}
+
+#footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+}
+
+#footer-header {
+
+    display: flex;
+    justify-content: center;
+    margin-left: 1000px;
+    margin-right: 1000px;
+}
+
+#nav-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 1000px;
+    margin-right: 1000px;
+}
+
+h4 {
+    font-size: 32px;
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+    border-bottom: black 3px solid;
+}
+
+h5 {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 2410px) {
+    .side-header-large {
+        display: none;
+    }
+
+    .side-header-medium {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+
+    }
+
+    .side-header-medium #bio-side-header {
+        height: 30px;
+        width: 482px;
+        text-align: left;
+
+    }
+
+    .side-header-medium #work-side-header {
+        height: 30px;
+        width: 1778px;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    h3 {
+        max-width: none;
+        font-size: 36px;
+        margin: 35px 10px;
+        padding-right: 15px;
+        margin-bottom: 3px;
+        border-right: none;
+        border-bottom: black 3px solid;
+    }
+
+    #box-container-medium {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        margin: 30px 30px 30px 0px;
+    }
+
+    #box {
+        width: 350px;
+        height: 350px;
+        margin: 5px;
+
+    }
+
+    #hero-box {
+        height: 710px;
+        width: 650px;
+    }
+
+
+
+    #bio-content-container-medium {
+        display: flex;
+        width: 512px;
+        margin-top: 40px;
+        ;
+
+    }
+
+    #bio-content-medium {
+        width: 512px;
+        margin-right: 30px;
+    }
+
+    #box-container-large {
+        display: none;
+    }
+}
