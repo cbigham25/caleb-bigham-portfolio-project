@@ -1,12 +1,11 @@
-* {
-
+/* * {
     outline: 3px solid limegreen !important;
-
     background: rgba(0, 151, 0, 0.1) !important;
-}
+} */
 
 body {
     background-color: rgb(224, 234, 237);
+    font-family: 'Bebas Neue', cursive;
 }
 
 header {
@@ -22,13 +21,15 @@ header {
     background-color: teal;
     max-width: 3000px;
     height: 50px;
-
+    justify-content: end;
 
 }
 
 h1 {
     padding-right: 25px;
     font-size: 48px;
+
+    text-align: end;
 }
 
 .nav-container {
@@ -39,8 +40,30 @@ h1 {
 
 .nav-box {
     flex: 1;
+    justify-content: center;
     text-align: center;
+    font-size: 24px;
+    padding: 5px;
     margin: 10px;
+    border-bottom: 3px black solid;
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: teal;
 }
 
 subheader {
@@ -58,6 +81,7 @@ subheader h2 {
     height: 35px;
     margin-right: 50px;
     margin-bottom: 25px;
+    padding: 10px;
 }
 
 #main-content-container {
